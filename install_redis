@@ -1,4 +1,4 @@
-VERSION="2.8.17"
+VERSION="3.2.5"
 echo "-----------------------------------------------------------------------"
 echo "Now will install Redis $VERSION..."
 curl -O http://download.redis.io/releases/redis-$VERSION.tar.gz
