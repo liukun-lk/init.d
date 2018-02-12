@@ -23,7 +23,7 @@ Install packages first
 ```bash
 sudo apt-get update
 sudo apt-get install -y curl
-curl -sSL https://git.io/vVHhe | bash
+curl -sSL https://git.io/vAqVI | bash
 ```
 
 ### Install Nginx
@@ -31,43 +31,44 @@ curl -sSL https://git.io/vVHhe | bash
 Nginx [official package](http://nginx.org/packages/ubuntu/)
 
 ```bash
-curl -sSL https://git.io/vVHhf | bash
+curl -sSL https://git.io/vAqVU | bash
 ```
 
 ### Install RVM + Ruby
 
 ```bash
-curl -sSL https://git.io/vVHhJ | bash
+curl -sSL https://git.io/vAqVJ | bash
 ```
 
 Use Ruby China mirror site for RubyGems and Ruby:
 
 ```
-MIRROR=1 curl -sSL https://git.io/vVHhJ | bash
-```
-
-### Install MongoDB
-
-```bash
-curl -sSL https://git.io/vVHhT | bash
+MIRROR=1 curl -sSL https://git.io/vAqVJ | bash
 ```
 
 ### Install Redis
 
 ```bash
-curl -sSL https://git.io/vVHhk | bash
+curl -sSL https://git.io/vAqah | bash
 ```
 
 ### Install ElasticSearch
 
 ```bash
-curl -sSL https://git.io/vVHhm | bash
+curl -sSL https://git.io/vAqay | bash
 sudo service elasticsearch status
 ```
 
 ## Install Docker
 
 ```bash
-curl -sSL https://git.io/vPypp | bash
+curl -sSL https://git.io/vAqa7 | bash
 sudo docker info
+```
+
+## Install Haproxy
+
+```bash
+curl -sSL https://git.io/vAqad | bash
+
 ```
